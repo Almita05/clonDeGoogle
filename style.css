@@ -1,0 +1,127 @@
+/* Estilos para el icono */
+.icon-buscador {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding: 7px;
+}
+
+/* Resto de los estilos */
+* {
+    font: 500 12px "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 2px;
+    margin: 9px;
+}
+
+footer ul {
+    display: inline-block;
+    padding: 15px;
+    margin: auto 12px;
+    text-align: center;
+
+}
+
+footer ul li {
+    display: inline;
+    padding: 15px;
+}
+
+main {
+    height: 800px;
+}
+
+.foto-perfil {
+    width: 50px;
+    height: 100px;
+    /* Ajusta según tus necesidades */
+}
+
+.listaAplicaciones {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.imagenGoogle {
+    display: flex;
+    justify-content: center;
+}
+
+main button {
+    margin: 16px;
+}
+
+
+main section article .buscador {
+    display: inline-block;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 2cm;
+    /* Verifica si realmente necesitas un radio de 2cm */
+    border-color: #0967b4;
+    background-color: #5ab12f;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    /* Cambié 'right' a 'flex-end' */
+    height: 48px;
+    max-width: 1230px;
+    /* Cambié 'width' a 'max-width' */
+    margin: 0 auto;
+    /* Centra horizontalmente el elemento ul */
+}
+
+/* Estilo para el contenedor central */
+.contenedor-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* Estilo para el primer artículo (con borde) */
+.buscador {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #d9d2d2;
+    /* Borde solo para este artículo */
+    border-radius: 24px;
+    padding: 8px;
+    margin-bottom: 20px;
+    /* Espacio entre los dos artículos */
+}
+
+#inputBuscador {
+    border: none;
+    /* Elimina el borde del input */
+    outline: none;
+    /* Elimina el resaltado de enfoque */
+    width: 450px;
+    /* Ajusta el ancho del input según tus necesidades */
+    padding: 8px;
+    /* Añade relleno al input */
+
+}
+
+
+.botones button {
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: rgb(246, 246, 246);
+
+}
