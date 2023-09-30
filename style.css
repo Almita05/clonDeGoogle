@@ -8,7 +8,7 @@
 
 /* Resto de los estilos */
 * {
-    font: 500 12px "Roboto", Arial, sans-serif;
+    font: 500 14px "Roboto", Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,23 +17,10 @@ ul {
     list-style-type: none;
 }
 
-header ul li {
-    display: inline-block;
-    padding: 2px;
-    margin: 9px;
-}
-
-footer ul {
-    display: inline-block;
+footer ul li {
     padding: 15px;
     margin: auto 12px;
-    text-align: center;
 
-}
-
-footer ul li {
-    display: inline;
-    padding: 15px;
 }
 
 main {
@@ -72,16 +59,39 @@ main section article .buscador {
     background-color: #5ab12f;
 }
 
+
+header {
+    margin-bottom: 90px;
+}
+
+
 header ul {
+    list-style: none;
     display: flex;
     justify-content: flex-end;
-    /* Cambié 'right' a 'flex-end' */
-    height: 48px;
-    max-width: 1230px;
-    /* Cambié 'width' a 'max-width' */
-    margin: 0 auto;
-    /* Centra horizontalmente el elemento ul */
+    /* Alinea los elementos a la derecha */
+    align-items: center;
+    /* Centra verticalmente los elementos */
 }
+
+header li {
+    margin-left: 20px;
+    /* Espacio entre elementos (ajusta según tus preferencias) */
+}
+
+/* Estilo para el ícono de aplicaciones */
+.listaAplicaciones {
+    font-size: 24px;
+    /* Tamaño del ícono */
+
+    /* Ajusta el margen superior para alinear verticalmente con los otros elementos */
+}
+
+/* Estilo para la foto de perfil */
+.foto-perfil {
+    margin-top: 55px;
+}
+
 
 /* Estilo para el contenedor central */
 .contenedor-central {
@@ -96,10 +106,10 @@ header ul {
 .buscador {
     display: flex;
     align-items: center;
-    border: 0.5px solid #d9d2d2;
+    border: 0.3px solid #e9e9e9;
     /* Borde solo para este artículo */
-    border-radius: 24px;
-    padding: 8px;
+    border-radius: 34px;
+    padding: 4px;
     margin-bottom: 20px;
     /* Espacio entre los dos artículos */
 }
@@ -121,7 +131,59 @@ header ul {
     border: none;
     font-size: 16px;
     padding: 8px;
+    margin-bottom: 38px;
     border-radius: 3px;
     background-color: rgb(246, 246, 246);
 
+}
+
+/* Unidades de medida */
+header {
+    height: 8vh;
+}
+
+main {
+    height: 70vh;
+}
+
+footer {
+
+    background-color: rgb(240, 236, 236);
+    color: rgb(128, 128, 128);
+}
+
+
+
+.listasFinales {
+    display: flex;
+    /* Establece el contenedor principal como un contenedor flexible */
+    justify-content: space-between;
+    /* Distribuye el espacio entre los elementos, colocando el primer ul a la izquierda y el segundo a la derecha */
+}
+
+.listasFinales ul {
+    list-style: none;
+    /* Quita los puntos de la lista */
+    padding: 0;
+    /* Quita el relleno predeterminado de la lista */
+    margin: 0;
+    /* Quita el margen predeterminado de la lista */
+    display: flex;
+    /* Establece las listas como contenedores flexibles */
+}
+
+.listasFinales li {
+    margin-right: 10px;
+    /* Espacio entre elementos (ajusta según tus preferencias) */
+}
+
+footer .seccionFooter1 {
+    display: flex;
+    justify-content: flex-start;
+    /* Alinea los elementos a la izquierda */
+    display: flex;
+    justify-content: flex-start;
+    /* Alinea los elementos a la izquierda */
+    align-items: center;
+    /* Centra verticalmente los elementos */
 }
